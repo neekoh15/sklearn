@@ -5,7 +5,6 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 import pandas as pd
 
 data = load_wine()
-
 classes = data.target
 wines = data.data
 
