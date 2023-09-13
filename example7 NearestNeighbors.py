@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Sep  7 13:17:04 2023
-
 @author: Nicolas Martinez
 """
 
@@ -54,7 +53,7 @@ model.data_formatting()
 model.train_model()
 
 while True:
-    print('Ingresa el indice de una cancion para encontrar las mas parecidas entre si..')
+    print('Ingresa el indice de una cancion para encontrar las mas parecidas entre si: ')
     index = input('Cancion numero >> ')
     try:
         int(index)
