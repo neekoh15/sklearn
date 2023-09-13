@@ -2,6 +2,7 @@ from sklearn.datasets import load_wine
 from sklearn.neighbors import NearestNeighbors
 import pandas as pd
 
+#dummy data for the model
 data = load_wine()
 wines = data.data
 classes = data.target
