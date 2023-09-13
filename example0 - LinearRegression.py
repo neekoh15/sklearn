@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Sep  6 07:53:47 2023
-
 Basic Regression Example
-
 @author: Nicolas Martinez
 """
 
