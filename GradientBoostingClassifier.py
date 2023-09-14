@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
 """
-Created on Fri Sep  8 15:50:07 2023
-
 @author: Martinez, Nicolas Agustin
 """
 
