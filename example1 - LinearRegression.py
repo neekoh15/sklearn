@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
 """
-Created on Wed Sep  6 08:28:29 2023
-
 @author: Nicolas Martinez
 
 Exercise:
