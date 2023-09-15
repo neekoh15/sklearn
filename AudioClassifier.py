@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
-# Step 1: Data Collection (prepare a dataset with labeled audio clips)
+# Data Collection (prepare a dataset with labeled audio clips)
 
 # Feature Extraction (using MFCCs)
 def extract_features(audio_path):
