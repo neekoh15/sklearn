@@ -28,7 +28,7 @@ for item in data:
     X.append(features)
     y.append(item["label"])
 
-# Step 3: Data Preprocessing
+# Data Preprocessing
 X = np.array(X)
 y = np.array(y)
 
