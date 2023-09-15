@@ -40,7 +40,7 @@ clf = SVC(kernel='linear')
 # Step 5: Model Training
 clf.fit(X_train, y_train)
 
-# Step 6: Model Evaluation
+# Model Evaluation
 y_pred = clf.predict(X_test)
 
 accuracy = accuracy_score(y_test, y_pred)
