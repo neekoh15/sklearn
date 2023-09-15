@@ -37,7 +37,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # Step 4: Model Selection (SVM classifier)
 clf = SVC(kernel='linear')
 
-# Step 5: Model Training
+# Model Training
 clf.fit(X_train, y_train)
 
 # Model Evaluation
