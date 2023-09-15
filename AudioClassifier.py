@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 # Step 1: Data Collection (prepare a dataset with labeled audio clips)
 
-# Step 2: Feature Extraction (using MFCCs)
+# Feature Extraction (using MFCCs)
 def extract_features(audio_path):
     y, sr = librosa.load(audio_path)
     mfccs = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)
