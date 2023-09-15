@@ -51,6 +51,6 @@ print(classification_report(y_test, y_pred))
 print("Confusion Matrix:")
 print(confusion_matrix(y_test, y_pred))
 
-# Step 7: Predictions
+
 # You can use the trained model to classify new audio clips.
 # For example, load a new audio clip, extract features, and use clf.predict() to get the prediction.
