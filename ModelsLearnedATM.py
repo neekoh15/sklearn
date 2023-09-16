@@ -3,6 +3,8 @@ ML basic algorithms implemented atm:
 """
 #Dummy data for model testing only
 from sklearn.datasets import load_iris
+
+#ML models
 from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neighbors import NearestNeighbors
