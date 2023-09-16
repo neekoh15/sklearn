@@ -1,5 +1,5 @@
 """
-ML basic algorithms:
+ML basic algorithms implemented atm:
 """
 from sklearn.datasets import load_iris
 from sklearn.linear_model import LinearRegression
