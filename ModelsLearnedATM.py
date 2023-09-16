@@ -33,7 +33,6 @@ class KNN:
         #preprocesing data
         
         scaler = StandardScaler()
-        
         self.X_train = scaler.fit(self.X_train)
         self.X_true = scaler.transform(self.X_true)
     
