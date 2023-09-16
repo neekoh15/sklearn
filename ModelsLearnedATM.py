@@ -8,7 +8,7 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-
+#Utilities (data splitting, scaler for NN model and metrics)
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
