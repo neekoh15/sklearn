@@ -22,9 +22,7 @@ class KNN:
         self.y = data.target
         
         self.__split_data()
-        
-        self.__preprocesing()
-        
+        self.__preprocesing()        
         self.__train_model()
     
     def __split_data(self):    
