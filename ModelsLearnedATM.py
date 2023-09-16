@@ -1,7 +1,7 @@
 """
 ML basic algorithms implemented atm:
 """
-#Dummy data to test models only
+#Dummy data for model testing only
 from sklearn.datasets import load_iris
 from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsClassifier
