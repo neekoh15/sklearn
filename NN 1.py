@@ -8,7 +8,7 @@ classes = data.target
 
 class NN:
     def __init__(self, wines, classes) -> None:
-        
+
         self.model = NearestNeighbors(n_neighbors=5, algorithm='brute')
         self.wines = wines
         self.classes = classes
