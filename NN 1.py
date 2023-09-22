@@ -19,7 +19,6 @@ class NN:
         self.model = self.model.fit(self.wines)
 
     def get_nearests(self, wine):
-
         distances, indexes = self.model.kneighbors([wine])
 
         dataset = pd.DataFrame({
