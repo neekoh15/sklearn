@@ -30,6 +30,5 @@ class NN:
         return dataset
     
 model = NN(wines, classes)
-
 print(model.get_nearests(wines[0]))
 
