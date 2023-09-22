@@ -15,6 +15,7 @@ class NN:
 
         self.__train_model()
 
+    
     def __train_model(self):
         self.model = self.model.fit(self.wines)
 
